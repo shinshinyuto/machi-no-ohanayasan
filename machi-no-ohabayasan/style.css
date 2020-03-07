@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+{
+  display: ;
+  width: ;
+  height: ;
+  margin: ;
+  padding: ;
+  font-size: ;
+  color: ;
+  background-color: ;
+}
+
+.news-wrap{
+  display: flex;
+  flex-flow: column;
+  width: 80%;
+  margin: 250px auto;
+  padding: ;
+  font-size: ;
+  color: ;
+  background-color: ;
+}
+
+.heading{
+  text-align: center;
+  margin: 0 auto 60px auto;
+  padding: ;
+  font-size: ;
+}
+
+.news-container{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  padding: ;
+}
+
+a.news-content{
+  display: block;
+  width: auto;
+  margin: 0;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.news-content img{
+  width: 250px;
+  height: 180px;
+}
+
+.news-content .news-data{
+  margin-top: 16px;
+  font-size: 16px;
+  color: #000;
+  text-align: center;
+}
+
+.insta-content{
+  display: ;
+  width: 600px;
+  height: 190px;
+  margin: 0 auto;
+  padding: ;
+  background-image: url("./iamges/melissa-askew-rNHf8wS8F6w-unsplash.jpg"),
+  url("./images/anton-mislawsky-S8VoxKULWrU-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media query (max-width: 400px) {
+  .news-wrap{
+    flex-flow: column;
+    width: 100%;
+    margin: auto;
+  }
+
+  {
+    display: ;
+    width: ;
+    height: ;
+    margin: ;
+    padding: ;
+    font-size: ;
+    color: ;
+    background-color: ;
+  }
+
+}
